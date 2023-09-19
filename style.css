@@ -4,8 +4,7 @@ p span {
 p b {
   background-color: black;
 }
-
-body {
+p:hover {
   color: blue;
 }
 
