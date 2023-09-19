@@ -1,4 +1,4 @@
-.btn, .btn-laranja {
+.btn, .btn-azul {
   width: 200px;
   padding: 10px 0;
   background: none;
@@ -7,14 +7,18 @@
   transition: 0.5s all;
   text-transform: uppercase;
 }
-.btn:hover, .btn-laranja:hover {
+.btn:hover, .btn-azul:hover {
   letter-spacing: 3px;
   background: none;
 }
 
-.btn-laranja {
-  background: orange;
-  border: 1px solid orange;
+.btn-azul {
+  background: rgb(73, 73, 230);
+  border: 1px solid rgb(73, 73, 230);
+  color: #fff;
+}
+.btn-azul:hover {
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
