@@ -1,0 +1,20 @@
+.btn, .btn-laranja {
+  width: 200px;
+  padding: 10px 0;
+  background: none;
+  border: 0;
+  border-radius: 10px;
+  transition: 0.5s all;
+  text-transform: uppercase;
+}
+.btn:hover, .btn-laranja:hover {
+  letter-spacing: 3px;
+  background: none;
+}
+
+.btn-laranja {
+  background: orange;
+  border: 1px solid orange;
+}
+
+/*# sourceMappingURL=style.css.map */
