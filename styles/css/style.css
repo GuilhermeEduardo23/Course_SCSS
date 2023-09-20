@@ -1,24 +1,57 @@
-.btn, .btn-azul {
+/* COLORS */
+.btn, .btn-marrom, .btn-roxo, .btn-verde, .btn-azul {
   width: 200px;
   padding: 10px 0;
-  background: none;
   border: 0;
   border-radius: 10px;
   transition: 0.5s all;
   text-transform: uppercase;
-}
-.btn:hover, .btn-azul:hover {
-  letter-spacing: 3px;
-  background: none;
+  display: block;
+  margin: 10px 0;
 }
 
 .btn-azul {
-  background: rgb(73, 73, 230);
-  border: 1px solid rgb(73, 73, 230);
+  background: #0a15d7;
   color: #fff;
 }
 .btn-azul:hover {
-  color: #000;
+  color: #0a15d7;
+  letter-spacing: 3px;
+  border: 1px solid #0a15d7;
+  background: none;
+}
+
+.btn-verde {
+  background: #0f810f;
+  color: #fff;
+}
+.btn-verde:hover {
+  color: #0f810f;
+  letter-spacing: 3px;
+  border: 1px solid #0f810f;
+  background: none;
+}
+
+.btn-roxo {
+  background: #671a67;
+  color: #fff;
+}
+.btn-roxo:hover {
+  color: #671a67;
+  letter-spacing: 3px;
+  border: 1px solid #671a67;
+  background: none;
+}
+
+.btn-marrom {
+  background: #ae2626;
+  color: #fff;
+}
+.btn-marrom:hover {
+  color: #ae2626;
+  letter-spacing: 3px;
+  border: 1px solid #ae2626;
+  background: none;
 }
 
 /*# sourceMappingURL=style.css.map */
