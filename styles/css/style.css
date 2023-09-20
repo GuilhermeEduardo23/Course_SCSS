@@ -9,6 +9,7 @@
   display: block;
   margin: 10px 0;
   color: #fff;
+  cursor: pointer;
 }
 .btn.btn-azul {
   background: #0a15d7;
@@ -44,6 +45,15 @@
   color: #ae2626;
   letter-spacing: 3px;
   border: 1px solid #ae2626;
+  background: none;
+}
+.btn.btn-preto {
+  background: #000;
+}
+.btn.btn-preto:hover {
+  color: #000;
+  letter-spacing: 3px;
+  border: 1px solid #000;
   background: none;
 }
 

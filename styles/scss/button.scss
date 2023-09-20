@@ -20,6 +20,7 @@
     display: block;
     margin: 10px 0;
     color: $color-white;
+    cursor: pointer;
 
     &.btn-azul {
         @include button-style($color-blue);
@@ -35,5 +36,9 @@
     
     &.btn-marrom {
         @include button-style($color-brown);
+    }
+
+    &.btn-preto {
+        @include button-style($color-black);
     }
 }
