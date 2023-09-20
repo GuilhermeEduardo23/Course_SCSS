@@ -1,18 +1,6 @@
-.btn {
-    width: 200px;
-    padding: 10px 0;
-    border: 0;
-    border-radius: 10px;
-    transition: .5s all;
-    text-transform: uppercase;
-    display: block;
-    margin: 10px 0;
-}
-
 //Mixin é como uma função que possui às formatações, propriedades, e recebe os valores através de parâmetros
 @mixin button-style($color) {
     background: $color;
-    color: $color-white;
 
     &:hover {
         color: $color;
@@ -22,22 +10,30 @@
     }
 }
 
-.btn-azul {
-    @extend .btn;
-    @include button-style($color-blue);
-}
+.btn {
+    width: 200px;
+    padding: 10px 0;
+    border: 0;
+    border-radius: 10px;
+    transition: .5s all;
+    text-transform: uppercase;
+    display: block;
+    margin: 10px 0;
+    color: $color-white;
 
-.btn-verde {
-    @extend .btn;
-    @include button-style($color-green);
-}
-
-.btn-roxo {
-    @extend .btn;
-    @include button-style($color-purple);
-}
-
-.btn-marrom {
-    @extend .btn;
-    @include button-style($color-brown);
+    &.btn-azul {
+        @include button-style($color-blue);
+    }
+    
+    &.btn-verde {
+        @include button-style($color-green);
+    }
+    
+    &.btn-roxo {
+        @include button-style($color-purple);
+    }
+    
+    &.btn-marrom {
+        @include button-style($color-brown);
+    }
 }
